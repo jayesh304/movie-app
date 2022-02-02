@@ -1,0 +1,21 @@
+/*header - background*/
+.header{
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+    display: flex;
+}
+/*Infinitely rotating logo*/
+.app-logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotatelogo 8s linear infinite;
+    justify-content: flex-start;
+}
+@keyframes rotatelogo{
+    from{ transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
